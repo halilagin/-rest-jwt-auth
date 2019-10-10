@@ -5,7 +5,7 @@ version: '3.5'
 
 services:
   rest-jwt-auth:
-    image: radarad-rest-jwt-auth:0.0.1
+    image: halilagin/radarad-rest-jwt-auth:0.0.1
     user: ruser
     environment:
       TEST: TEST

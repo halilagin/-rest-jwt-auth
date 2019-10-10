@@ -8,3 +8,7 @@ Here are the difference.
 2. the java version is reduced to 8 (it was 11)
 3. docker port redirection is 18051 to 8080
 4. run the demo with command "mvn spring-boot:run"
+
+For further details, see the document below.
+
+docs/auth-test-procedures.docx

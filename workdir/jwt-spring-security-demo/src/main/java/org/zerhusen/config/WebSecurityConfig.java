@@ -99,7 +99,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
          .antMatchers("/api/person").hasAuthority("ROLE_USER")
          .antMatchers("/api/hiddenmessage").hasAuthority("ROLE_ADMIN")
-
+         .antMatchers("/api/refresh").hasAuthority("ROLE_USER")
          .anyRequest().authenticated()
 
          .and()

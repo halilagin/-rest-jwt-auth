@@ -1,1 +1,1 @@
-{ "username" : "admin", "firstname" : "admin", "lastname" : "admin", "email" : "admin@admin.com", "authorities" : [ { "name" : "ROLE_USER" }, { "name" : "ROLE_ADMIN" } ] }
+{ "timestamp" : "2019-10-14T11:08:35.175+0000", "status" : 404, "error" : "Not Found", "message" : "No message available", "path" : "/auth/refresh" }
